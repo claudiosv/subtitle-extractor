@@ -1,0 +1,44 @@
+[[package]]
+name = "iso8601"
+version = "1.0.2"
+description = "Simple module to parse ISO 8601 dates"
+category = "main"
+optional = false
+python-versions = ">=3.6.2,<4.0"
+
+[[package]]
+name = "m3u8"
+version = "0.9.0"
+description = "Python m3u8 parser"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+iso8601 = "*"
+
+[[package]]
+name = "srt"
+version = "3.5.0"
+description = "A tiny library for parsing, modifying, and composing SRT files."
+category = "main"
+optional = false
+python-versions = ">=2.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "97bed566e35432a147bd96dc70f2f952f08afc9f730e8956253bb4e96f05b4de"
+
+[metadata.files]
+iso8601 = [
+    {file = "iso8601-1.0.2-py3-none-any.whl", hash = "sha256:d7bc01b1c2a43b259570bb307f057abc578786ea734ba2b87b836c5efc5bd443"},
+    {file = "iso8601-1.0.2.tar.gz", hash = "sha256:27f503220e6845d9db954fb212b95b0362d8b7e6c1b2326a87061c3de93594b1"},
+]
+m3u8 = [
+    {file = "m3u8-0.9.0-py3-none-any.whl", hash = "sha256:7dde0a20cf985422593810006dd371a1e3e7afd33a76277111eba3f220288902"},
+    {file = "m3u8-0.9.0.tar.gz", hash = "sha256:3ee058855c430dc364db6b8026269d2b4c1894b198bcc5c824039c551c05f497"},
+]
+srt = [
+    {file = "srt-3.5.0.tar.gz", hash = "sha256:9378e67fcc7c110eca7ec12bdb17a174085f67e3b371f7e586a4c68a0dda245b"},
+]

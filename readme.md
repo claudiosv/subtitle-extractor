@@ -1,7 +1,5 @@
 # Subtitle Extractor
 
-![Subtitle Extractor](https://example.com/subtitle_extractor.png)
-
 Subtitle Extractor is a Python script that allows you to download videos from m3u8 playlists and extract segments of video where the subtitles match a regular expression.
 
 ```shell
